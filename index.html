@@ -1,48 +1,54 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        body{
-    background-color: rgb(9, 146, 146);
-}
-    </style>
+    <title>Google UI Clone</title>
 </head>
 
 <body>
-    <div>
-        <h1> Travel Form For Our Trip</h1>
-        <form action="form.php">
-           <ul type="square">
-               <li><input type="text" placeholder="Enter Your Name" size="40">
-            </ul>
-            <ol type="A"><label for="DCE"></li>
-               <li> <input type="radio" value="college name" name="college name" id="DCE">DCE
-               </li></label>
-            <label for="ECM">
-             <li><input type="radio" value="college name" name="college name" id=ECM>ECM<br>
-            </label></li><br>
-        </ol>
-          <ul type="square"> <li> Select Your Branch<select name="brnch" id="branch"select your branch>
-                <option value="CSE">CSE</option>
-                <option value="EEE">EEE</option>
-                <option value="CE">CE</option>
-                <option value="ME">ME</option>         
-            </select> <br><br>
-            <li><input type="checkbox" name="Want Food Canteen Card" id="Food canteen" size="500">Want Food Canteen Card</li>
-            <br><br>
-            <li>Your Email Adress-<input type="email" name="email" id="email adress" placeholder="your Email Adress"></li><br><br>
-            <li> Select Your Date Of Birth-<input type="date" name="" id=""></li><br><br>
-            <li> Upload Your Photo-<input type="file" name="image upload" id="image" accept="image"></li><br><br>
-            <li></li><textarea name="explain" id="explain" cols="30" rows="5" placeholder="explain why you want to join..."></textarea><br>
-            <button>Submit</button>
-        
-        </ul>
-        </form>
+    <!-- Header Starts -->
+    <div class="header">
+    <div class="header__left">
+        <a href="#">About</a>
+        <a href="#">Store</a>
     </div>
+
+    <div class="header__right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <span class="material-icons header__apps">apps </span>
+        <span class="material-icons">account_circle </span>
+    </div>
+  </div>
+    <!-- Header ends -->
+
+    <!-- Main Body Starts -->
+   <div class="mainbody">
+    
+   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg" alt="">
+        <!-- Search Starts -->
+        <div class="search">
+            <div class="search__input">
+                <span class="material-icons">search  </span>
+              <input type="text"> 
+              <span class="material-icons"> mic </span>              
+            </div>
+        </div>
+
+        <div class="search__buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+        <!-- Search Ends -->
+
+    </div>
+    <!-- Main Body Ends -->
 </body>
+
+</html>
